@@ -1,0 +1,45 @@
+La 200 - Instrucciones para el profesor
+=======================================
+
+Antes de empezar (lo hace Ariel)
+   - Su notebook debe estar encendido, con INICIAR_LA200.bat corriendo
+     (dejar abiertas las ventanas del API).
+   - Tu PC y el notebook de Ariel deben estar en la MISMA red WiFi.
+   - Ariel te dicta la IP de su notebook: INICIAR_LA200.bat la muestra al
+     final como "Servidor para la app del profesor: 192.168.x.x"
+     (hoy en su WiFi de casa es 192.168.1.33; cambia si cambia la red).
+
+1) Instalar
+   - Ejecuta el instalador "La 200 Administración Setup 0.1.1.exe".
+   - Si Windows SmartScreen avisa ("Windows protegió tu PC"):
+       Más información  ->  Ejecutar de todas formas.
+   - Acepta la instalación (puedes cambiar la carpeta si quieres).
+   - Si ya tenías instalada la versión 0.1.0, esta la reemplaza.
+
+2) Abrir la app
+   - Abre "La 200 Administración" (acceso directo en el escritorio o menú Inicio).
+
+3) Configurar el servidor
+   - En la pantalla de inicio de sesión, haz clic en "Configurar servidor".
+   - En "Servidor" escribe SOLO la IP que te dicte Ariel (sin http:// ni :8000).
+   - Pulsa "Probar conexión". Debe decir "Conexión OK".
+   - Si falla: confirma el WiFi, la IP y que Ariel tenga INICIAR_LA200.bat abierto.
+
+4) Iniciar sesión
+   Correo:      profesor@la200.local
+   Contraseña:  profesor123
+
+5) Primer acceso (autenticador)
+   - La app mostrará un código QR.
+   - Escanéalo con Google Authenticator o Microsoft Authenticator
+     (en el celular).
+   - Escribe el código de 6 dígitos que genera la app y pulsa Activar.
+   - Las siguientes veces solo pedirá el código de 6 dígitos.
+
+¿Problemas?
+- "Tu sesión expiró. Inicia sesión nuevamente.": vuelve a iniciar sesión
+  (pasa si el servidor cambió su clave o la sesión venció).
+- La IP puede cambiar si Ariel se reconecta a otra red: pídele la nueva.
+- Algunos hotspots aíslan a los clientes (no se ven entre sí). Si no hay
+  conexión, prueba otro hotspot o un router/WiFi compartido.
+- Ariel debe dejar abierta la ventana del API mientras usas la app.
